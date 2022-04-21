@@ -1,7 +1,7 @@
 set number
 set mouse=a
 set tabstop=4
-colorscheme evening
+colorscheme delek
 syntax on
 
 au BufNewFile,BufRead *.py
