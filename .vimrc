@@ -1,8 +1,18 @@
+" editing features
 set number
 set mouse=a
+syntax on
+set cursorline
 set tabstop=4
 colorscheme delek
-syntax on
+set shiftwidth=4
+set expandtab
+set incsearch
+set showcmd
+set showmode
+set showmatch
+set hlsearch
+set history=1000
 
 au BufNewFile,BufRead *.py
 		\ set tabstop=4 |
