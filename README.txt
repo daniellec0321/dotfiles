@@ -1,5 +1,3 @@
-# dotfiles
-
 Brought to you by bingus
 
           __     __
