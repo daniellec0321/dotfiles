@@ -2,7 +2,6 @@
 set number
 set mouse=a
 syntax on
-set cursorline
 set tabstop=4
 colorscheme delek
 set shiftwidth=4
