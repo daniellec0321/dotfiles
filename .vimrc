@@ -9,7 +9,6 @@ set expandtab
 set incsearch
 set showcmd
 set showmode
-set showmatch
 set hlsearch
 set history=1000
 
