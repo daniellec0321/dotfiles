@@ -30,3 +30,8 @@ au BufNewFile,BufRead *.cpp
 		\ set tabstop=4 |
 		\ set softtabstop=4 |
 		\ set autoindent
+
+au BufNewFile,BufRead *.js
+		\ set tabstop=4 |
+		\ set softtabstop=4 |
+		\ set autoindent
