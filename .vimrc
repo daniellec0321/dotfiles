@@ -5,7 +5,6 @@ syntax on
 set tabstop=4
 colorscheme delek
 set shiftwidth=4
-set expandtab
 set incsearch
 set showcmd
 set showmode
