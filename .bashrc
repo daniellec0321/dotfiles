@@ -94,19 +94,8 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-export PATH=$PATH:/escnfs/courses/sp21-cse-20221.01/public/bin
-#gives me permission to see the files for the albaCore assembler
-
-# some more ls aliases
-#alias ll='ls -l'
-#alias la='ls -A'
-#alias l='ls -CF'
-
-alias cls=clear
-#alias simoutorder='/escnfs/courses/sp22-cse-30321.01/public/arm/simplesim-arm/sim-outorder'
-alias simoutorder='/escnfs/home/dcroft/compArch/simplesim-arm/sim-outorder'
-alias arm-gcc='/home/software/arm/cross-compiler/gcc-4.1.1-glibc-2.3.2/arm-unknown-linux-gnu/bin/arm-unknown-linux-gnu-gcc'
 # Alias definitions.
+alias cls=clear
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.

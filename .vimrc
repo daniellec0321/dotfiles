@@ -25,6 +25,11 @@ au BufNewFile,BufRead *.c
 		\ set softtabstop=4 |
 		\ set autoindent
 
+au BufNewFile,BufRead *.h
+		\ set tabstop=4 |
+		\ set softtabstop=4 |
+		\ set autoindent
+
 au BufNewFile,BufRead *.cpp
 		\ set tabstop=4 |
 		\ set softtabstop=4 |
