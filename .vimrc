@@ -3,6 +3,7 @@ set number
 set mouse=a
 syntax on
 set tabstop=4
+set autoindent
 colorscheme delek
 set shiftwidth=4
 set incsearch
@@ -12,30 +13,9 @@ set hlsearch
 set history=1000
 
 au BufNewFile,BufRead *.py
-		\ set tabstop=4 |
 		\ set softtabstop=4 |
 		\ set shiftwidth=4 |
 		\ set expandtab |
 		\ set autoindent |
 		\ set fileformat=unix |
 		\ let python_highlight_all = 1
-
-au BufNewFile,BufRead *.c
-		\ set tabstop=4 |
-		\ set softtabstop=4 |
-		\ set autoindent
-
-au BufNewFile,BufRead *.h
-		\ set tabstop=4 |
-		\ set softtabstop=4 |
-		\ set autoindent
-
-au BufNewFile,BufRead *.cpp
-		\ set tabstop=4 |
-		\ set softtabstop=4 |
-		\ set autoindent
-
-au BufNewFile,BufRead *.js
-		\ set tabstop=4 |
-		\ set softtabstop=4 |
-		\ set autoindent
