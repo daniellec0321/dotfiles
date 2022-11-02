@@ -56,6 +56,9 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+# django framework to path
+export PATH=/home/daniellec0321/.local/bin:$PATH
+
 # adds git branch
 getGIT() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
