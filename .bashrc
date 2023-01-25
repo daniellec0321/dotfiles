@@ -107,7 +107,7 @@ alias greb="git pull --rebase"
 alias gls="git branch -a"
 gcom ()
 {
-    git commit -m \""$1"\"
+    git commit -m "$1"
 }
 gch ()
 {
