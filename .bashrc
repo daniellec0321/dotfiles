@@ -109,6 +109,10 @@ gcom ()
 {
     git commit -m \""$1"\"
 }
+gch ()
+{
+    git checkout "$1"
+}
 gnew ()
 {
     git checkout -b "$1"
