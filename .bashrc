@@ -105,9 +105,10 @@ alias gs="git status"
 alias gall="git add ."
 alias greb="git pull --rebase"
 alias gls="git branch -a"
+alias glog="git log --oneline"
 gcom ()
 {
-    git commit -m \""$1"\"
+    git commit -m "$1"
 }
 gch ()
 {
