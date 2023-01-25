@@ -109,9 +109,17 @@ gnew ()
 {
     git checkout -b "$1"
 }
-mkcd ()
+gdelloc ()
 {
-      mkdir -p -- "$1" && cd -P -- "$1"
+    git branch -d "$1"
+}
+gdelrem ()
+{
+    git push origin --delete "$1"
+}
+gpush ()
+{
+    echo "$getGIT"
 }
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
