@@ -37,6 +37,3 @@ gpull ()
     curr_branch=$(git branch --show-current)
     git pull origin "$curr_branch"
 }
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
