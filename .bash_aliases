@@ -1,5 +1,6 @@
 # Alias definitions.
 alias cls=clear
+alias distsys="conda activate distsys"
 alias update="sudo apt update && sudo apt upgrade"
 alias ndssh="ssh dcroft@student12.cse.nd.edu"
 alias gs="git status"
