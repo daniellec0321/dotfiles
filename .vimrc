@@ -45,3 +45,5 @@ set history=1000
 au BufNewFile,BufRead *.py
 		\ set fileformat=unix |
 		\ let python_highlight_all = 1
+
+let g:loaded_matchparen=1
