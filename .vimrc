@@ -42,6 +42,10 @@ set showmode
 set hlsearch
 set history=1000
 
+" set undo history to be pernament
+set undofile
+set undodir=~/.vim/undodir
+
 au BufNewFile,BufRead *.py
 		\ set fileformat=unix |
 		\ let python_highlight_all = 1
