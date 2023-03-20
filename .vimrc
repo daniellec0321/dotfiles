@@ -23,6 +23,13 @@ nnoremap ww :w<return>
 nnoremap a 0
 nnoremap l $
 
+" auto-close characters
+ino " ""<left>
+ino ' ''<left>
+ino ( ()<left>
+ino [ []<left>
+ino { {}<left>
+
 " editing features
 set number
 set mouse=a
