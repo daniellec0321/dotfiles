@@ -30,6 +30,16 @@ ino ( ()<left>
 ino [ []<left>
 ino { {}<left>
 
+inoremap <expr> <CR> search('{\%#}', 'n') ? "\<CR>\<CR>\<Up>\<C-f>" : "\<CR>"
+
+if has("autocmd")
+      " When editing a file, always jump to the last cursor position
+    autocmd BufReadPost *
+    \ if line("'\"") > 0 && line ("'\"") <= line("$") |
+    \   exe "normal g'\"" |
+    \ endif
+endif
+
 " editing features
 set number
 set mouse=a
