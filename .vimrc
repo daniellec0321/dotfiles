@@ -23,13 +23,6 @@ nnoremap ww :w<return>
 nnoremap a 0
 nnoremap l $
 
-" auto-close characters
-ino " ""<left>
-ino ' ''<left>
-ino ( ()<left>
-ino [ []<left>
-ino { {}<left>
-
 inoremap <expr> <CR> search('{\%#}', 'n') ? "\<CR>\<CR>\<Up>\<C-f>" : "\<CR>"
 
 if has("autocmd")
