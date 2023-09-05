@@ -11,13 +11,7 @@ filetype plugin on
 filetype indent on
 
 " override escape key with jj
-inoremap jj <esc>
-
-" override exit and save with zz
-nnoremap zz ZZ
-
-" override :w with ww
-nnoremap ww :w<return>
+inoremap xx <esc>
 
 " override go to start/end of line
 nnoremap a 0
