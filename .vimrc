@@ -13,10 +13,6 @@ filetype indent on
 " override escape key with jj
 inoremap xx <esc>
 
-" override go to start/end of line
-nnoremap a 0
-nnoremap l $
-
 inoremap <expr> <CR> search('{\%#}', 'n') ? "\<CR>\<CR>\<Up>\<C-f>" : "\<CR>"
 
 if has("autocmd")
