@@ -11,7 +11,7 @@ filetype plugin on
 filetype indent on
 
 " override escape key with jj
-inoremap xx <esc>
+inoremap tt <esc>
 
 inoremap <expr> <CR> search('{\%#}', 'n') ? "\<CR>\<CR>\<Up>\<C-f>" : "\<CR>"
 
