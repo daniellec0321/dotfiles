@@ -105,7 +105,7 @@ function rebase-all ()
 }
 function ndssh ()
 {
-    scripts/ndssh $@
+    ~/scripts/ndssh $@
 }
 function shc ()
 {
