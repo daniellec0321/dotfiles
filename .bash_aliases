@@ -3,6 +3,7 @@ alias python='/usr/local/bin/python3.10'
 alias cls=clear
 alias distsys="conda activate distsys"
 alias update="sudo apt update && sudo apt upgrade"
+alias grep="grep --color"
 alias gs="git status"
 alias gall="git add ."
 alias greb="git pull --rebase"
@@ -85,7 +86,11 @@ gpull ()
 }
 function gswitch ()
 {
-    echo "Usage: git switch -c <new_branch> <old_branch>"
+    if [ $# -eq 1 ]; then
+        git switch -c $1 origin/$1
+    else
+        echo "Usage: gswitch <branch>"
+    fi
 }
 function valg () 
 {
