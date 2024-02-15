@@ -84,7 +84,7 @@ gpull ()
     fi
     git pull origin "$curr_branch"
 }
-function gswitch ()
+gswitch ()
 {
     if [ $# -eq 1 ]; then
         git switch -c $1 origin/$1
@@ -92,7 +92,7 @@ function gswitch ()
         echo "Usage: gswitch <branch>"
     fi
 }
-function valg () 
+valg () 
 {
     if [ $# -eq 0 ]; then
         echo "Usage: $ valg [program name] [arguments...]"
@@ -100,19 +100,23 @@ function valg ()
         valgrind --leak-check=full -s $@
     fi
 }
-function aliases ()
+aliases ()
 {
     cat /home/daniellec0321/.bash_aliases
 }
-function rebase-all ()
+rebase-all ()
 {
     for BRANCH in `ls .git/refs/heads`; do git rebase master $BRANCH; done
 }
-function ndssh ()
+ndssh ()
 {
     ~/bin/ndssh $@
 }
-function shc ()
+kdkssh ()
+{
+    ~/bin/pi-ssh
+}
+shc ()
 {
     if [ $# -ne 2 ]; then
         echo "Usage: $ shc [source] [target]"
