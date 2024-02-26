@@ -1,8 +1,12 @@
 # Alias definitions.
-alias python='/usr/local/bin/python3.10'
+alias python="/usr/bin/python3.11"
+alias set-python3.8="~/bin/set-python3.8"
+alias set-python3.11="~/bin/set-python3.11"
 alias cls=clear
 alias distsys="conda activate distsys"
-alias update="sudo apt update && sudo apt upgrade"
+alias update="~/bin/update"
+alias aliases="cat ~/.bash_aliases"
+alias kdkssh="~/bin/pi-ssh"
 alias grep="grep --color -E"
 alias gs="git status"
 alias gall="git add ."
@@ -100,10 +104,6 @@ valg ()
         valgrind --leak-check=full -s $@
     fi
 }
-aliases ()
-{
-    cat /home/daniellec0321/.bash_aliases
-}
 rebase-all ()
 {
     for BRANCH in `ls .git/refs/heads`; do git rebase master $BRANCH; done
@@ -111,10 +111,6 @@ rebase-all ()
 ndssh ()
 {
     ~/bin/ndssh $@
-}
-kdkssh ()
-{
-    ~/bin/pi-ssh
 }
 shc ()
 {
